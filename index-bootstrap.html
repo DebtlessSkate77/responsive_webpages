@@ -9,19 +9,27 @@
 </head>
 <body>
     <div class="p-3 mb-2 bg-secondary text-white">
-        <section class="heading text-center text-decoration-underline"><h1>Personal Webpage</h1></section>        <section class="intro">
+        <section class="heading text-center text-decoration-underline"><h1>Personal Webpage</h1>
+        </section>        
+        <section class="intro">
         <h1><strong><u>Intro</u></strong></h1>
         <br>
         <div class="row container-md">
             <div class="col-sm-5"><h2><strong>{{user.fullName}}</strong></h2></div>
             <div class="col-sm-7"><img src="{{user.photo}}" class="rounded border border-warning" width="200" alt="Kabelo"></div>
-    </div>        <br>
-    </section>    <section class="city">
-        <h1><strong><u>Which City?</u></strong></h1>        <h2><strong>{{city.name}}</strong></h2>
+    </div>        
+    <br>
+    </section>    
+    <section class="city">
+        <h1><strong><u>Which City?</u></strong></h1>        
+        <h2><strong>{{city.name}}</strong></h2>
         <div class="row container-md">
             <div class="col-sm-4"><img src="{{city.photo}}" class="rounded border border-warning" alt="canal in venice"></div>
             <div class="col-sm-8">{{city.description}}</div>
-    </div>        <br>    </section>    <section class="language">
+    </div>        
+    <br>    
+</section>    
+<section class="language">
         <h1><strong><u>A Foreign Language</u></strong></h1>
         <h2><strong>{{foreignLanguage.language}}</strong></h2>
         <br>
@@ -30,7 +38,8 @@
         <br>
         <table class="table table-bordered table-info table-hover border-dark">
             <tbody class="table-group-divider">
-            <tr>                <th class="table-light">Foreign Language</th>
+            <tr>                
+                <th class="table-light">Foreign Language</th>
                 <th class="table-light">English Phrase</th>
                 <tbody class="table-group-divider">
             </tr>
@@ -43,7 +52,8 @@
             </tbody>
         {{/each}}
             </table>
-        </section>    <section class="studied">
+        </section>    
+        <section class="studied">
         <h1><strong><u>Subjects</u></strong></h1>
         <h4><strong>What I studied and where?</strong></h4>
         <br>
@@ -52,17 +62,25 @@
         <p><li>University of Johannesburg</li></p>
         <br>
         <br>
-    </section>    <section class="subjects">
-        <h4><strong>Favourite Subjects</strong></h4> <br>                <div class="row">
+    </section>    
+    <section class="subjects">
+        <h4><strong>Favourite Subjects</strong></h4> 
+        <br>                
+        <div class="row">
                     {{# each favouriteSubjects}}
                     <div class="col">
                     <h6><strong>{{name}}</strong></h6>
                     <p>{{description}}</p>
                     <img src="{{photo}}" class="rounded border border-warning" width="200">
                </div>
-                {{/each}}        </div>    </section>
-    <br>    </section>
-<br><div><a class="btn btn-light btn-lg" href="./index.html" role="button">Home</a></div>
+                {{/each}}        
+            </div>    
+        </section>
+    <br>    
+</section>
+<br>
+<div>
+<a class="btn btn-light btn-lg" href="./index.html" role="button">Home</a></div>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
 </div>
 </body>

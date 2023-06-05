@@ -1,19 +1,19 @@
 
 {
     "user" : {
-        "fullName": "",
+        "fullName": "Kabelo Baikgaki",
         "photo" : ""
     },
     "city" : {
-        "name" : "",
+        "name" : "Mahikeng",
         "photo" : "",
-        "description" : ""
+        "description" : "The Capital City of the North West Province."
     },
     "foreignLanguage" : {
-        "language" : "",
+        "language" : "SeTswana",
         "phrases" : [{
-            "englishPhrase" : "",
-            "foreignLanguage" : ""
+            "englishPhrase" : "Ke Nako",
+            "foreignLanguage" : "Its Time"
         },
         {
             "englishPhrase" : "",
@@ -22,7 +22,7 @@
     },
     "favouriteSubjects" : [
         {
-            "name" : "",
+            "name" : "Construction Technology",
             "description" : ""
         },
         {
