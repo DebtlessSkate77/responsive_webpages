@@ -1,5 +1,3 @@
-import data from "./data.json" assert {type: 'json'};
-
 import handlebars from 'vite-plugin-handlebars';
 import {defineConfig} from 'vite';
 import data from './data.json';
