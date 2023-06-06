@@ -2,36 +2,39 @@
 {
     "user" : {
         "fullName": "Kabelo Baikgaki",
-        "photo" : ""
+        "photo" : "./Kabelo.png"
     },
     "city" : {
-        "name" : "Mahikeng",
-        "photo" : "",
-        "description" : "The Capital City of the North West Province."
+        "name" : "Gaborone",
+        "photo" : "./Botswana.png",
+        "description" : "The Capital City of Botswana, which  was founded in 1964 (until 1969 spelled Gaberones [i.e., Gaborone’s town], after the tribal chief who had his capital at the site during the colonial period)."
     },
     "foreignLanguage" : {
         "language" : "SeTswana",
         "phrases" : [{
-            "englishPhrase" : "Ke Nako",
-            "foreignLanguage" : "Its Time"
+            "englishPhrase" : "Its Time",
+            "foreignLanguage" : "Ke Nako"
         },
         {
-            "englishPhrase" : "",
-            "foreignLanguage" : ""
+            "englishPhrase" : "Someone is one bacause of everyone.",
+            "foreignLanguage" : "Motho ke motho ka bathong ba ba ngwe."
         }]
     },
     "favouriteSubjects" : [
         {
-            "name" : "Construction Technology",
-            "description" : ""
+            "name" : "Maths",
+            "photo" : "./Subjects_Maths.jpg",
+            "description" : "Mathematics, the science of structure, order, and relation that has evolved from elemental practices of counting, measuring, and describing the shapes of objects."
         },
         {
-            "name" : "",
-            "description" : ""
+            "name" : "Physics",
+            "photo" : "./Subjects_Physics.jpg",
+            "description" : "Physics, science that deals with the structure of matter and the interactions between the fundamental constituents of the observable universe."
         },
         {
-            "name" : "",
-            "description" : ""
+            "name" : "Quantity Surveying",
+            "photo" : "./Subjects_QS.jpg",
+            "description" : "The process of identification of the financial components and profitability of the project by performing fundamental tasks such as feasibility studies & cost projections throughout the project life-cycle."
         }
     ]
 }
